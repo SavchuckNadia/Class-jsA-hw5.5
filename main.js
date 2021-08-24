@@ -82,3 +82,34 @@ class Crocodile extends Predator {
     }
 
 }
+
+let cow = new Cow(true, true, true, false, true, true);
+console.log(cow);
+cow.eat();
+cow.canGo();
+cow.wool();
+cow.eatPlants()
+cow.milk();
+console.log(`-----------------`);
+let sheep = new Sheep(true, true, true, true, true, true);
+console.log(sheep);
+sheep.eat();
+sheep.canGo();
+sheep.wool();
+sheep.eatPlants()
+sheep.sheepGiveWool()
+console.log(`-----------------`);
+let greatWhiteShark = new GreatWhiteShark(false, false, true, false, true, true);
+console.log(greatWhiteShark);
+greatWhiteShark.eat();
+greatWhiteShark.canGo();
+greatWhiteShark.wool();
+greatWhiteShark.eatOtherAnimals()
+greatWhiteShark.lifeTime();
+console.log(`-----------------`);
+let crocodile = new Crocodile(true, true, true, false, true, true);
+console.log(crocodile);
+crocodile.eat();
+crocodile.canGo();
+crocodile.wool();
+crocodile.heartType()
